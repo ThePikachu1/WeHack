@@ -1,0 +1,122 @@
+Starting NLI parameter testing with test data...
+Scale: NLI entailment scores typically range -3 to +4
+
+============================================================
+Testing with entailment=1.0, contradiction=0.0
+============================================================
+
+  Results:
+    Nodes: 7
+    Edges: 9
+    Edges merged: 3
+    Multi-source edges: 1
+
+  Edge details:
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki', 'jll_wiki']
+    CBRE -> Colliers: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> Colliers: 'Colliers is one of the Big 4 commercial ...' | sources: ['colliers_wiki']
+    Cushman -> Wakefield: 'Cushman & Wakefield is one of the Big 4 ...' | sources: ['cushman_wiki']
+    Cushman -> Wakefield: 'Cushman and Wakefield are a global comme...' | sources: ['wikipedia']
+    JLL -> CEO: 'Christian Ulbrich is the CEO of JLL....' | sources: ['jll_wiki']
+    JLL -> CEO: 'Christian Ulbrich is the president of JL...' | sources: ['news_article']
+    Colliers -> CEO: 'Jay S. Hennick is the CEO of Colliers In...' | sources: ['colliers_wiki']
+    Colliers -> Chairman: 'Jay S. Hennick is the chairman of Collie...' | sources: ['press_release']
+
+============================================================
+Testing with entailment=2.0, contradiction=0.0
+============================================================
+
+  Results:
+    Nodes: 7
+    Edges: 10
+    Edges merged: 4
+    Multi-source edges: 0
+
+  Edge details:
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['jll_wiki']
+    CBRE -> Colliers: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> Colliers: 'Colliers is one of the Big 4 commercial ...' | sources: ['colliers_wiki']
+    Cushman -> Wakefield: 'Cushman & Wakefield is one of the Big 4 ...' | sources: ['cushman_wiki']
+    Cushman -> Wakefield: 'Cushman and Wakefield are a global comme...' | sources: ['wikipedia']
+    JLL -> CEO: 'Christian Ulbrich is the CEO of JLL....' | sources: ['jll_wiki']
+    JLL -> CEO: 'Christian Ulbrich is the president of JL...' | sources: ['news_article']
+    Colliers -> CEO: 'Jay S. Hennick is the CEO of Colliers In...' | sources: ['colliers_wiki']
+    Colliers -> Chairman: 'Jay S. Hennick is the chairman of Collie...' | sources: ['press_release']
+
+============================================================
+Testing with entailment=3.0, contradiction=0.0
+============================================================
+
+  Results:
+    Nodes: 7
+    Edges: 10
+    Edges merged: 4
+    Multi-source edges: 0
+
+  Edge details:
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['jll_wiki']
+    CBRE -> Colliers: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> Colliers: 'Colliers is one of the Big 4 commercial ...' | sources: ['colliers_wiki']
+    Cushman -> Wakefield: 'Cushman & Wakefield is one of the Big 4 ...' | sources: ['cushman_wiki']
+    Cushman -> Wakefield: 'Cushman and Wakefield are a global comme...' | sources: ['wikipedia']
+    JLL -> CEO: 'Christian Ulbrich is the CEO of JLL....' | sources: ['jll_wiki']
+    JLL -> CEO: 'Christian Ulbrich is the president of JL...' | sources: ['news_article']
+    Colliers -> CEO: 'Jay S. Hennick is the CEO of Colliers In...' | sources: ['colliers_wiki']
+    Colliers -> Chairman: 'Jay S. Hennick is the chairman of Collie...' | sources: ['press_release']
+
+============================================================
+Testing with entailment=3.5, contradiction=0.0
+============================================================
+
+  Results:
+    Nodes: 7
+    Edges: 10
+    Edges merged: 4
+    Multi-source edges: 0
+
+  Edge details:
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['jll_wiki']
+    CBRE -> Colliers: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> Colliers: 'Colliers is one of the Big 4 commercial ...' | sources: ['colliers_wiki']
+    Cushman -> Wakefield: 'Cushman & Wakefield is one of the Big 4 ...' | sources: ['cushman_wiki']
+    Cushman -> Wakefield: 'Cushman and Wakefield are a global comme...' | sources: ['wikipedia']
+    JLL -> CEO: 'Christian Ulbrich is the CEO of JLL....' | sources: ['jll_wiki']
+    JLL -> CEO: 'Christian Ulbrich is the president of JL...' | sources: ['news_article']
+    Colliers -> CEO: 'Jay S. Hennick is the CEO of Colliers In...' | sources: ['colliers_wiki']
+    Colliers -> Chairman: 'Jay S. Hennick is the chairman of Collie...' | sources: ['press_release']
+
+============================================================
+Testing with entailment=3.0, contradiction=-1.0
+============================================================
+
+  Results:
+    Nodes: 7
+    Edges: 10
+    Edges merged: 4
+    Multi-source edges: 0
+
+  Edge details:
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> JLL: 'CBRE is one of the Big 4 commercial real...' | sources: ['jll_wiki']
+    CBRE -> Colliers: 'CBRE is one of the Big 4 commercial real...' | sources: ['cbre_wiki']
+    CBRE -> Colliers: 'Colliers is one of the Big 4 commercial ...' | sources: ['colliers_wiki']
+    Cushman -> Wakefield: 'Cushman & Wakefield is one of the Big 4 ...' | sources: ['cushman_wiki']
+    Cushman -> Wakefield: 'Cushman and Wakefield are a global comme...' | sources: ['wikipedia']
+    JLL -> CEO: 'Christian Ulbrich is the CEO of JLL....' | sources: ['jll_wiki']
+    JLL -> CEO: 'Christian Ulbrich is the president of JL...' | sources: ['news_article']
+    Colliers -> CEO: 'Jay S. Hennick is the CEO of Colliers In...' | sources: ['colliers_wiki']
+    Colliers -> Chairman: 'Jay S. Hennick is the chairman of Collie...' | sources: ['press_release']
+
+============================================================
+SUMMARY OF RESULTS
+============================================================
+Entailment   Contradiction  Nodes    Edges    Merged   MultiSrc
+------------------------------------------------------------
+1.0          0.0            7        9        3        1       
+2.0          0.0            7        10       4        0       
+3.0          0.0            7        10       4        0       
+3.5          0.0            7        10       4        0       
+3.0          -1.0           7        10       4        0       

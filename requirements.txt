@@ -1,0 +1,15 @@
+hnswlib
+sentence-transformers
+torch
+numpy
+huggingface_hub
+einops
+google-genai
+python-dotenv
+requests
+networkx
+matplotlib
+flask
+langgraph
+langchain
+langchain-google-genai
